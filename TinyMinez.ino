@@ -17,7 +17,6 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // The code works at 16MHZ internal
-// and uses ssd1306xled Library for SSD1306 oled display 128x64.
 //
 // To stuff all code and data into the 8192 bytes of the ATtiny85
 // the ATTinyCore (v1.5.2) by Spence Konde is recommended.
@@ -25,6 +24,10 @@
 // following board manager to the Arduino IDE: [http://drazzy.com/package_drazzy.com_index.json]
 // Please enable LTO (link time optimization) and disable 'millis()' and
 // 'micros()'.
+
+
+//Adapted for FastTinyDriver by SlickAlex
+//This version: uses FastTinyDriver for the SSD1306 OLED;
 
 // enable serial screenshot
 //#define _ENABLE_SERIAL_SCREENSHOT_
